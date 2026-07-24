@@ -1,4 +1,4 @@
-# Summerpack 1.1.23 - Changelog
+# Summerpack 1.1.24 - Changelog
 
 Consolidated changelog for everything built this session. Previously scattered across a run of
 1.1.1-1.1.7 -> 1.2.0 -> 1.3.3 micro-bumps (one per fix); collapsed back down to a single 1.1.8
@@ -31,9 +31,73 @@ multiple pages. 1.1.21 fixes a genuine ore-processing dead end: MI's tin/lead/ni
 uranium ore, once crushed, produced Create's own native crushed item with no way to smelt it into
 an ingot - and confirms the whole 1.1.20 batch (chisel/sai, vents, pipe textures, both books) as
 working via real playtest. 1.1.22 finally wires up Default Options, which had been present but
-inert since 1.1.16. 1.1.23 re-enables Stellaris steel ore generation per user direction. Going
-forward, version bumps stay incremental (1.1.24, 1.1.25, etc.) - reserving a minor/major bump for
-an actual reason (new mod set, breaking recipe changes).
+inert since 1.1.16. 1.1.23 re-enables Stellaris steel ore generation per user direction. 1.1.24 fixes 9 mods that were
+incorrectly declared server-required when they're actually client-only, which is what was forcing
+them onto the user's dedicated server and producing `RuntimeDistCleaner`/mixin warnings for
+client-rendering classes. `Summerpack_DEPLOY.mrpack` (a same-content copy of the latest versioned
+build, stable filename for the user's GitHub Pages-hosted server deployment at
+`ondrej1808.github.io/Viktorcraft`) is introduced from 1.1.24 onward - update it alongside every
+new version bump. Going forward, version bumps stay incremental (1.1.25, 1.1.26, etc.) - reserving
+a minor/major bump for an actual reason (new mod set, breaking recipe changes).
+
+## 1.1.24: Fixed 9 client-only mods incorrectly forced onto the dedicated server
+
+- User reported a dedicated-server log full of `RuntimeDistCleaner`/mixin warnings ("Attempted to
+  load class ... for invalid dist DEDICATED_SERVER", client rendering classes like
+  `MultiBufferSource$BufferSource`, `VertexFormat$Mode`, `FogRenderer$FogData`,
+  `GlStateManager$SourceFactor`) and suspected Just Zoom. Checked Just Zoom's `env` in
+  `modrinth.index.json` - it was already correctly `server: unsupported`, so a Modrinth-aware
+  server generator would never have downloaded it. That ruled out Just Zoom as the specific cause,
+  but prompted an audit of every mod's `env` block against Modrinth's own declared `client_side`/
+  `server_side` values (queried live via the API, not assumed) - and found a real, much bigger bug
+  that's been in the pack from before this session: **9 genuinely client-only mods were tagged
+  `server: required`** instead of `unsupported`, meaning any Modrinth-compliant server pack
+  generator would force-download and load them on a dedicated server, exactly producing the
+  reported symptom:
+  - `chat_heads` (Chat Heads)
+  - `MouseTweaks` (Mouse Tweaks)
+  - `ImmediatelyFast`
+  - `neoculus` (NeOculus)
+  - `SimplyTooltips` (Simply Tooltips)
+  - `notenoughanimations` (Not Enough Animations)
+  - `embeddium` (Embeddium)
+  - `BetterF3`
+  - `continuity` (Continuity)
+
+  Corrected all 9 to `server: unsupported` in `modrinth.index.json`, matching their real Modrinth
+  project declarations. Also checked several other suspects that turned out fine on inspection:
+  Xaero's Minimap/World Map and Sound Physics Remastered are legitimately `server: optional` per
+  Modrinth (safe to load on a server, just unnecessary - not a bug); AppleSkin and Simple Voice
+  Chat are `optional`/`optional` (Simple Voice Chat genuinely needs a server component for
+  proxying audio, unlike the others); Athena (Chisel Reborn's baked-model-loader dependency) was
+  already correctly `unsupported` - confused briefly by an unrelated Modrinth project that also
+  uses the slug `athena`, resolved by checking the jar's own `displayURL` for the real project
+  (`athena-ctm`).
+  - **Important caveat for anyone running an existing dedicated server**: this fixes the pack
+    metadata so a *fresh* server install/reinstall via a Modrinth-aware tool won't download these
+    9 jars going forward. It does **not** retroactively remove them from a server that's already
+    running - those 9 jars need to be manually deleted from that server's `mods/` folder for the
+    warnings to actually stop.
+- Also investigated the user's second report - a non-crashing Stellaris recipe-scan warning for
+  `stellaris:water_separation` - and whether updating from the pack's current 1.4.23 to the newer
+  1.4.24/1.4.25 would fix it. Found the exact upstream report
+  ([st0x0ef/stellaris#208](https://github.com/st0x0ef/stellaris/issues/208), "Failed to scan
+  recipe stellaris:water_separation"), closed by the mod author with: *"You can safely ignore this
+  warning. The recipe work well."* Neither 1.4.24's nor 1.4.25's changelog mentions this warning
+  at all (1.4.24 is gravity/launchpad/jet-suit fixes, 1.4.25 is a direct-launch-to-planet hotfix) -
+  consistent with it being a harmless, by-design log message rather than a bug that gets fixed in
+  a later version. **No version bump applied** - updating Stellaris wouldn't resolve this specific
+  warning, though 1.4.24 does contain unrelated real fixes if there's a separate reason to update.
+- **Validated a fresh dedicated-server boot straight from `Summerpack_DEPLOY.mrpack`** - extracted
+  the mrpack, downloaded every mod whose `env.server` isn't `unsupported` (97 of 112 files, mirroring
+  exactly what a real Modrinth-compliant server generator would fetch), installed NeoForge
+  21.1.233, and booted. Reached `Done (11.225s)! For help, type "help"` with **zero**
+  `RuntimeDistCleaner` errors (confirming the 9-mod env fix above actually works end-to-end - none
+  of those jars were even downloaded) and zero `FATAL` errors. Only warnings present were the
+  already-known, non-blocking ones: the Stellaris `water_separation`/`fuel_refining` Zeta
+  recipe-scan warnings (confirmed harmless above), Create Crafts & Additions' fluid-tag recipe
+  parsing falling back to vanilla, and a Stoneholm loot table using a removed NBT function - all
+  pre-existing upstream issues unrelated to this pack.
 
 ## 1.1.23: Stellaris steel ore generation re-enabled
 

@@ -1,9 +1,9 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "1.1.23",
+  "versionId": "1.1.24",
   "name": "Summerpack",
-  "summary": "Patch 1.1.23 - re-enabled Stellaris steel ore generation (the disable script was renamed to .disabled rather than deleted, so it's easy to restore). Steel unification (Stellaris ingots/nuggets convert 1:1 to MI steel) is unaffected. See changelog.md",
+  "summary": "Patch 1.1.24 - fixed 9 mods incorrectly declared server-required when they're actually client-only (chat_heads, MouseTweaks, ImmediatelyFast, neoculus, SimplyTooltips, notenoughanimations, embeddium, BetterF3, continuity), which was forcing them onto dedicated servers. See changelog.md",
   "files": [
     {
       "path": "mods/arcadia-patch-create-1.4.2.jar",
@@ -88,7 +88,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/tTKkTWZ7/chat_heads-0.15.2-neoforge-1.21.jar"
@@ -133,7 +133,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar"
@@ -222,7 +222,7 @@
         "sha512": "93fb2685547f1c7d95b558b3b24efd53551b8ab6978b52483d2924a03de044e992669f83e2ee73f9ad1308035b932de431f4f662a971f496c7fdc55195aebd7b"
       },
       "env": {
-        "server": "required",
+        "server": "unsupported",
         "client": "required"
       },
       "downloads": [
@@ -343,7 +343,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/ndV543Q3/versions/ZMibIRkN/neoculus-mc1.21.1-1.8.7.jar"
@@ -381,7 +381,7 @@
       "fileSize": 1163890
     },
     {
-      "path": "resourcepacks/NewGlowingOres-§6[Border]§r.zip",
+      "path": "resourcepacks/NewGlowingOres-\u00a76[Border]\u00a7r.zip",
       "hashes": {
         "sha1": "40d8c6748585e4585c8d1e54a28b8ea51cad080d",
         "sha512": "29b9e71e9bc6473070ce2e73a3a9960170a6f1ef089459ffc93254067bc55d2ef4a65357848b433dca3a9a622909f9fd734c1f9dab3da68ae3448cddbf982a3c"
@@ -508,7 +508,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/6avVoBVB/versions/Ic73EcJ6/SimplyTooltips-neoforge-0.1.3.jar"
@@ -568,7 +568,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/MPCX6s5C/versions/eYNogep3/notenoughanimations-neoforge-1.12.4-mc1.21.1.jar"
@@ -792,7 +792,7 @@
         "sha512": "d073cf52dcf2aeec3ac9f746d4571c7b4b1ad746fa11d4bcc5a21a264ae3119ac6d341d08cc9a70042cf0ddffc3b3ef3329ed30217035d4551c9d6788b6dc1e6"
       },
       "env": {
-        "server": "required",
+        "server": "unsupported",
         "client": "required"
       },
       "downloads": [
@@ -936,7 +936,7 @@
       "fileSize": 106003
     },
     {
-      "path": "resourcepacks/LowOnFire v26.2§8.zip",
+      "path": "resourcepacks/LowOnFire v26.2\u00a78.zip",
       "hashes": {
         "sha1": "96932a034fff4cd0cad08ba12db730450c4772da",
         "sha512": "713a20a8171c8249c30d9eb72342162754c627c7a86dc0971cb555faf43c322c181fd5546e0c770fc9ae922161ee846a7af951267c1d9a8a75af466a17e19d5e"
@@ -1348,7 +1348,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/8shC1gFX/versions/maXNB1dn/BetterF3-11.0.3-NeoForge-1.21.1.jar"
@@ -1542,7 +1542,7 @@
         "sha1": "0aecd2d043ac25299254623fafdd9129ab2ba9c2"
       },
       "env": {
-        "server": "required",
+        "server": "unsupported",
         "client": "required"
       },
       "downloads": [
