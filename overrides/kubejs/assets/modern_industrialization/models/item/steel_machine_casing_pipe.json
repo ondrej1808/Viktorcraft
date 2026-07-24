@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "modern_industrialization:block/steel_machine_casing_pipe"
+  }
+}

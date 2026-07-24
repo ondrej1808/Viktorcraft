@@ -1,0 +1,17 @@
+{
+  "name": "Rogue Eye",
+  "icon": "endrem:rogue_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 23,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Loot chest + Craft$()$(br2)Source: $(bold)Jungle Temple$() chest - $(bold)40%$() chance per chest."
+    },
+    {
+      "type": "crafting",
+      "recipe": "eyeguide:rogue_eye_craft",
+      "text": "Or craft it: Cobweb, Dead Bush, Wither Rose, Tipped Arrow, Crossbow, Bow, Rabbit Hide and Leather around an Eye of Ender."
+    }
+  ]
+}

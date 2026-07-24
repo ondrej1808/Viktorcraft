@@ -1,0 +1,188 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "0000000000000002"
+	icon: "minecraft:grass_block"
+	id: "0000000000000001"
+	order_index: 0
+	quest_links: []
+	quests: [
+	{
+		dependencies: []
+		description: [
+			"Craft or find your Summerpack Guide book and give it a read - it's a map of everything in this pack."
+		]
+		icon: "patchouli:guide_book"
+		id: "0000000000000003"
+		rewards: [
+		{
+			id: "0000000000000005"
+			type: "xp"
+			xp: 10
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000004"
+			item: "patchouli:guide_book"
+			type: "item"
+		}
+		]
+		title: "Read the Summerpack Guide"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"The End Remastered eyes are this pack's signature system - read up before you go hunting for them."
+		]
+		icon: "patchouli:guide_book"
+		id: "0000000000000006"
+		rewards: [
+		{
+			id: "0000000000000008"
+			type: "xp"
+			xp: 10
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000007"
+			item: "patchouli:guide_book"
+			type: "item"
+		}
+		]
+		title: "Read the Book of Eyes"
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"The oldest tradition."
+		]
+		icon: "minecraft:book"
+		id: "0000000000000009"
+		rewards: [
+		{
+			id: "000000000000000B"
+			type: "xp"
+			xp: 5
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000000A"
+			item: "#minecraft:logs"
+			type: "item"
+		}
+		]
+		title: "Punch a Tree"
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000009"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:crafting_table"
+		id: "000000000000000C"
+		rewards: [
+		{
+			id: "000000000000000E"
+			type: "xp"
+			xp: 5
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000000D"
+			item: "minecraft:crafting_table"
+			type: "item"
+		}
+		]
+		title: "Crafting Table"
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"000000000000000C"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:stone_pickaxe"
+		id: "000000000000000F"
+		rewards: [
+		{
+			id: "0000000000000011"
+			type: "xp"
+			xp: 10
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000010"
+			item: "minecraft:stone_pickaxe"
+			type: "item"
+		}
+		]
+		title: "Stone Age"
+		x: 0.0d
+		y: 3.0d
+	}
+	{
+		dependencies: [
+			"000000000000000F"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:iron_pickaxe"
+		id: "0000000000000012"
+		rewards: [
+		{
+			id: "0000000000000014"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000013"
+			item: "minecraft:iron_pickaxe"
+			type: "item"
+		}
+		]
+		title: "Iron Age"
+		x: 3.0d
+		y: 3.0d
+	}
+	]
+	subtitle: "Welcome to Summerpack"
+	title: "Getting Started"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "What This Pack Changed",
+  "icon": "minecraft:writable_book",
+  "category": "patchouli:pack_changes",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(bold)Steel unification$() - Modern Industrialization steel is the only real steel. Stellaris' own steel ore was disabled, and Stellaris steel ingots convert 1:1 into MI steel.$(br2)$(bold)End Remastered eyes$() - several eyes that had no working obtain method got their loot sources restored or brand new crafting recipes added. See the Book of Eyes."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Create x Modern Industrialization$() - Antimony, Iridium, Lead, Nickel and Tin ore can now be crushed with a Create crushing wheel and smelted into ingots, as an alternative to the MI Macerator."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Recipe collisions fixed$() - Building Wands vs Simply Swords' spears, and Chisel Reborn's chisel vs Simply Swords' Iron Sai, both shipped identical shaped recipes so only one item of each pair was ever craftable. Both pairs are now craftable independently."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Molten Vents$() - vent rarity tuned down from the mod's own default, following playtest feedback.$(br2)$(bold)Create: Power Loader$() added for chunk loading contraptions."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)MI pipe/cable icons$() - pipe items were rendering with a missing or generic, indistinguishable texture (a known Continuity conflict). They now show a proper per-color icon baked from the mod's own pipe texture."
+    }
+  ]
+}

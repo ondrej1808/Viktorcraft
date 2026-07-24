@@ -1,0 +1,12 @@
+{
+  "name": "Cryptic Eye",
+  "icon": "endrem:cryptic_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Enchanting Table$()$(br2)1/120 (about 0.83%) chance to obtain it every time you click the enchant button at an enchanting table."
+    }
+  ]
+}

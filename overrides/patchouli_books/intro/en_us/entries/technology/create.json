@@ -1,0 +1,16 @@
+{
+  "name": "Create",
+  "icon": "create:brass_ingot",
+  "category": "patchouli:technology",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Mechanical, rotation-based automation - millstones, crushing wheels, mixers, presses, and contraptions built from moving trains and elevators. A great starting point for automating ore processing.$(br2)This pack adds Create crushing-wheel recipes for several Modern Industrialization ores (Antimony, Iridium, Lead, Nickel, Tin), so you can double your ore yield with a crusher instead of only the MI Macerator."
+    },
+    {
+      "type": "text",
+      "text": "Right-click any Create item or block with the Ponder key (default: $(bold)P$()) to open a short in-world animated tutorial for it - Create's own Ponder system explains individual mechanisms better than a book page can, so use it instead of guessing what a component does."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Exotic Eye",
+  "icon": "endrem:exotic_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "endrem:exotic_eye",
+      "text": "How to obtain: $(bold)Craft only$() (no loot or mob drop)$(br2)Requires 2 Conduits, 4 kinds of coral (Fire, Tube, Horn, Bubble), 2 Glow Ink Sacs and an Eye of Ender."
+    }
+  ]
+}

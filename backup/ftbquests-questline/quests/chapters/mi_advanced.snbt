@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mi_advanced"
+	group: "0000000000000016"
+	icon: "modern_industrialization:mv_wire_coil"
+	id: "0000000000000056"
+	order_index: 4
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"0000000000000037"
+			"0000000000000053"
+		]
+		description: [
+			""
+		]
+		icon: "modern_industrialization:mv_wire_coil"
+		id: "0000000000000057"
+		rewards: [
+		{
+			id: "0000000000000059"
+			type: "xp_levels"
+			xp_levels: 3
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000058"
+			item: "modern_industrialization:mv_wire_coil"
+			type: "item"
+		}
+		]
+		title: "Reach Medium Voltage"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000057"
+		]
+		description: [
+			""
+		]
+		icon: "modern_industrialization:hv_wire_coil"
+		id: "000000000000005A"
+		rewards: [
+		{
+			id: "000000000000005C"
+			type: "xp_levels"
+			xp_levels: 4
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000005B"
+			item: "modern_industrialization:hv_wire_coil"
+			type: "item"
+		}
+		]
+		title: "Reach High Voltage"
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000057"
+		]
+		description: [
+			""
+		]
+		icon: "modern_industrialization:nickel_ingot"
+		id: "000000000000005D"
+		rewards: [
+		{
+			id: "000000000000005F"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000005E"
+			item: "modern_industrialization:nickel_ingot"
+			type: "item"
+		}
+		]
+		title: "Nickel Processing"
+		x: 6.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "MV/HV tiers"
+	title: "MI Advanced"
+}

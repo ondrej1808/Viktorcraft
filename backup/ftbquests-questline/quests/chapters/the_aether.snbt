@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "000000000000006B"
+	icon: "aether:ambrosium_shard"
+	id: "000000000000007B"
+	order_index: 1
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"0000000000000012"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:book"
+		id: "000000000000007C"
+		rewards: [
+		{
+			id: "000000000000007E"
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			dimension: "aether:the_aether"
+			id: "000000000000007D"
+			type: "dimension"
+		}
+		]
+		title: "Enter the Aether"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"000000000000007C"
+		]
+		description: [
+			""
+		]
+		icon: "aether:ambrosium_shard"
+		id: "000000000000007F"
+		rewards: [
+		{
+			id: "0000000000000081"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000080"
+			item: "aether:ambrosium_shard"
+			type: "item"
+		}
+		]
+		title: "Mine Ambrosium"
+		x: 3.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "A peaceful sky dimension"
+	title: "The Aether"
+}

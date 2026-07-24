@@ -1,0 +1,13 @@
+{
+  "name": "Mars Eye",
+  "icon": "endrem:mars_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "eyeguide:mars_eye_craft",
+      "text": "How to obtain: $(bold)Craft$()$(br2)8x Mars Stone (Stellaris) + Eye of Ender."
+    }
+  ]
+}

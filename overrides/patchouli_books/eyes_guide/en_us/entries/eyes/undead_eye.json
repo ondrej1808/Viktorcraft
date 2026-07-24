@@ -1,0 +1,17 @@
+{
+  "name": "Undead Eye",
+  "icon": "endrem:undead_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Mob drop + Craft$()$(br2)Step 1: Kill a $(bold)Skeleton Horse$() - $(bold)25%$() chance to drop an $(bold)Undead Soul$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endrem:undead_eye",
+      "text": "Step 2: Craft the Undead Eye from an Undead Soul, Bone, Rotten Flesh, Phantom Membrane and Ghast Tear."
+    }
+  ]
+}

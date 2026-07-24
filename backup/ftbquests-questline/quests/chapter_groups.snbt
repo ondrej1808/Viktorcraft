@@ -1,0 +1,24 @@
+{
+	chapter_groups: [
+		{
+			id: "0000000000000002"
+			title: "Welcome"
+		}
+		{
+			id: "0000000000000016"
+			title: "Technology"
+		}
+		{
+			id: "000000000000006B"
+			title: "Exploration"
+		}
+		{
+			id: "00000000000000EE"
+			title: "Combat & Adventure"
+		}
+		{
+			id: "0000000000000103"
+			title: "Utility & Comfort"
+		}
+	]
+}

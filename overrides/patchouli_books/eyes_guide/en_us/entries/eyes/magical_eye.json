@@ -1,0 +1,12 @@
+{
+  "name": "Magical Eye",
+  "icon": "endrem:magical_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Mob drop + Loot chest$()$(br2)Source 1: $(bold)Evoker$() - kill it (spawns in Woodland Mansions or during raids) - $(bold)40%$() on kill.$(br2)Source 2: $(bold)Woodland Mansion$() chest - $(bold)10%$() chance."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create:precision_mechanism"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simplyswords:contained_remnant"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simplyswords:empowered_remnant"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simplyswords:runefused_gem"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simplyswords:runic_tablet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:reinforced_echo_shard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:warden_carapace"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"endrem:witch_pupil"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"stellaris:moon_sand"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:sonorous_staff"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:heart_of_the_deep"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:warden_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"stellaris:steel_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"stellaris:steel_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"stellaris:steel_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modern_industrialization:steel_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,12 @@
+{
+  "name": "Lost Eye",
+  "icon": "endrem:lost_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Loot chest$() (two possible sources)$(br2)Source 1: $(bold)Abandoned Mineshaft$() chest - $(bold)20%$() chance.$(br2)Source 2: $(bold)Simple Dungeon$() chest - $(bold)2.5%$() chance."
+    }
+  ]
+}

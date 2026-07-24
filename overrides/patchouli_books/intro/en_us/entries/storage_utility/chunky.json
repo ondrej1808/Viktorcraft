@@ -1,0 +1,12 @@
+{
+  "name": "Chunky",
+  "icon": "minecraft:filled_map",
+  "category": "patchouli:storage_utility",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A server-side chunk pregenerator - command only, adds no items. Run $(bold)/chunky start$() to pregenerate chunks around spawn or another center point, which smooths out lag from natural chunk generation later. Ask a server admin if you're not sure whether it's already been run."
+    }
+  ]
+}

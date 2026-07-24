@@ -1,0 +1,13 @@
+{
+  "name": "Lunar Eye",
+  "icon": "endrem:lunar_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "eyeguide:lunar_eye_craft",
+      "text": "How to obtain: $(bold)Craft$()$(br2)8x Moon Stone (Stellaris) + Eye of Ender."
+    }
+  ]
+}

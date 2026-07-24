@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_advanced"
+	group: "0000000000000016"
+	icon: "create:andesite_casing"
+	id: "0000000000000060"
+	order_index: 5
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"000000000000002D"
+		]
+		description: [
+			""
+		]
+		icon: "create:mechanical_bearing"
+		id: "0000000000000061"
+		rewards: [
+		{
+			id: "0000000000000063"
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000062"
+			item: "create:mechanical_bearing"
+			type: "item"
+		}
+		]
+		title: "Build a Contraption"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000061"
+		]
+		description: [
+			""
+		]
+		icon: "create:track"
+		id: "0000000000000064"
+		rewards: [
+		{
+			id: "0000000000000066"
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000065"
+			item: "create:track"
+			type: "item"
+		}
+		]
+		title: "Lay Track"
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000061"
+			"0000000000000057"
+		]
+		description: [
+			"Create Crafts & Additions bridges Create rotation and FE power."
+		]
+		icon: "createaddition:electric_motor"
+		id: "0000000000000067"
+		rewards: [
+		{
+			id: "0000000000000069"
+			type: "xp_levels"
+			xp_levels: 3
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000068"
+			item: "createaddition:electric_motor"
+			type: "item"
+		}
+		]
+		title: "Electric Motor"
+		x: 6.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "Contraptions and beyond"
+	title: "Create Advanced"
+}

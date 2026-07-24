@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons_armor"
+	group: "00000000000000EE"
+	icon: "minecraft:diamond_sword"
+	id: "00000000000000ED"
+	order_index: 0
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"0000000000000012"
+		]
+		description: [
+			""
+		]
+		icon: "simplyswords:iron_spear"
+		id: "00000000000000EF"
+		rewards: [
+		{
+			id: "00000000000000F1"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000F0"
+			item: "simplyswords:iron_spear"
+			type: "item"
+		}
+		]
+		title: "Forge a Spear"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"00000000000000EF"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:rabbit_foot"
+		id: "00000000000000F2"
+		rewards: [
+		{
+			id: "00000000000000F4"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000F3"
+			item: "minecraft:rabbit_foot"
+			type: "item"
+		}
+		]
+		title: "Find an Artifact"
+		x: 3.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "Simply Swords and Artifacts"
+	title: "Weapons & Armor"
+}

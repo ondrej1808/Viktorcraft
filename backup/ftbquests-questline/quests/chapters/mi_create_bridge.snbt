@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mi_create_bridge"
+	group: "0000000000000016"
+	icon: "packfixes:crushed_raw_iridium"
+	id: "0000000000000030"
+	order_index: 2
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"0000000000000020"
+			"000000000000002D"
+		]
+		description: [
+			"Antimony, Iridium, Lead, Nickel or Tin ore, crushed with a Create Crushing Wheel."
+		]
+		icon: "packfixes:crushed_raw_iridium"
+		id: "0000000000000031"
+		rewards: [
+		{
+			id: "0000000000000033"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000032"
+			item: "packfixes:crushed_raw_iridium"
+			type: "item"
+		}
+		]
+		title: "Crush an MI Ore"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000031"
+		]
+		description: [
+			"Renewable orestone generators, found as dormant stone on land or underwater - rarer in this pack (3x default). Look for a patch of stone that doesn't quite match its surroundings."
+		]
+		icon: "molten_vents:dormant_molten_veridium"
+		id: "0000000000000034"
+		rewards: [
+		{
+			id: "0000000000000036"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000035"
+			item: "molten_vents:dormant_molten_veridium"
+			type: "item"
+		}
+		]
+		title: "Find a Molten Vent"
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000034"
+		]
+		description: [
+			"Blow up the dormant vent with TNT to activate it, then pump lava into the resulting block. Once active, it grows more orestone around itself over time - a real renewable source, not a one-time drop."
+		]
+		icon: "minecraft:book"
+		id: "0000000000000037"
+		rewards: [
+		{
+			id: "0000000000000039"
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			id: "0000000000000038"
+			type: "checkmark"
+		}
+		]
+		title: "Activate It"
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000037"
+		]
+		description: [
+			"Mine the active vent and crush it with a Create Crushing Wheel."
+		]
+		icon: "create:crushed_raw_copper"
+		id: "000000000000003A"
+		rewards: [
+		{
+			id: "000000000000003C"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000003B"
+			item: "create:crushed_raw_copper"
+			type: "item"
+		}
+		]
+		title: "Veridium Vent - Copper"
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000037"
+		]
+		description: [
+			"Mine the active vent and crush it with a Create Crushing Wheel."
+		]
+		icon: "create:crushed_raw_iron"
+		id: "000000000000003D"
+		rewards: [
+		{
+			id: "000000000000003F"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000003E"
+			item: "create:crushed_raw_iron"
+			type: "item"
+		}
+		]
+		title: "Crimsite Vent - Iron"
+		x: 0.0d
+		y: 3.0d
+	}
+	{
+		dependencies: [
+			"0000000000000037"
+		]
+		description: [
+			"Mine the active vent and crush it with a Create Crushing Wheel."
+		]
+		icon: "create:crushed_raw_gold"
+		id: "0000000000000040"
+		rewards: [
+		{
+			id: "0000000000000042"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000041"
+			item: "create:crushed_raw_gold"
+			type: "item"
+		}
+		]
+		title: "Ochrum Vent - Gold"
+		x: 3.0d
+		y: 3.0d
+	}
+	{
+		dependencies: [
+			"0000000000000037"
+		]
+		description: [
+			"Mine the active vent and crush it with a Create Crushing Wheel."
+		]
+		icon: "create:crushed_raw_zinc"
+		id: "0000000000000043"
+		rewards: [
+		{
+			id: "0000000000000045"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000044"
+			item: "create:crushed_raw_zinc"
+			type: "item"
+		}
+		]
+		title: "Asurine Vent - Zinc"
+		x: 6.0d
+		y: 3.0d
+	}
+	{
+		dependencies: [
+			"0000000000000037"
+		]
+		description: [
+			"This one doesn't crush into any ore - Create has no crushing recipe for Scoria. If you activate one, it's a wash. Confirm before you sink time into it - we may be wrong about which of Scoria/Scorchia is the useless one, so treat this as a heads-up rather than gospel."
+		]
+		icon: "minecraft:book"
+		id: "0000000000000046"
+		rewards: [
+		{
+			id: "0000000000000048"
+			type: "xp"
+			xp: 5
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			id: "0000000000000047"
+			type: "checkmark"
+		}
+		]
+		title: "Scoria Vent - Dead End"
+		x: 9.0d
+		y: 3.0d
+	}
+	{
+		dependencies: [
+			"0000000000000037"
+		]
+		description: [
+			"Same story as Scoria - no Create crushing recipe exists for it either, as far as we could verify. Worth confirming for yourself in-game."
+		]
+		icon: "minecraft:book"
+		id: "0000000000000049"
+		rewards: [
+		{
+			id: "000000000000004B"
+			type: "xp"
+			xp: 5
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			id: "000000000000004A"
+			type: "checkmark"
+		}
+		]
+		title: "Scorchia Vent - Also No Ore"
+		x: 0.0d
+		y: 6.0d
+	}
+	]
+	subtitle: "Where the two tech trees meet"
+	title: "MI x Create Bridge"
+}

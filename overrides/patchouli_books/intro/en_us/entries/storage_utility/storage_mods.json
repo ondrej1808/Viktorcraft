@@ -1,0 +1,12 @@
+{
+  "name": "Tom's Storage & Backpacks",
+  "icon": "toms_storage:basic_storage_terminal",
+  "category": "patchouli:storage_utility",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(bold)Tom's Storage$() gives you a lightweight networked-chest terminal without the complexity of a full ME system.$(br2)$(bold)Sophisticated Backpacks$() gives you upgradeable, portable storage - handy for exploring far from your base."
+    }
+  ]
+}

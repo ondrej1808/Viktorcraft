@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_solutions"
+	group: "0000000000000103"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "0000000000000102"
+	order_index: 0
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"0000000000000017"
+		]
+		description: [
+			""
+		]
+		icon: "sophisticatedbackpacks:backpack"
+		id: "0000000000000104"
+		rewards: [
+		{
+			id: "0000000000000106"
+			type: "xp"
+			xp: 10
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000105"
+			item: "sophisticatedbackpacks:backpack"
+			type: "item"
+		}
+		]
+		title: "Craft a Backpack"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000104"
+		]
+		description: [
+			""
+		]
+		icon: "toms_storage:basic_storage_terminal"
+		id: "0000000000000107"
+		rewards: [
+		{
+			id: "0000000000000109"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000108"
+			item: "toms_storage:basic_storage_terminal"
+			type: "item"
+		}
+		]
+		title: "Tom's Storage Terminal"
+		x: 3.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "Backpacks, Tom's Storage, or AE2 - your choice"
+	title: "Storage Solutions"
+}

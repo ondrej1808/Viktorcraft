@@ -1,0 +1,12 @@
+{
+  "name": "Guardian Eye",
+  "icon": "endrem:guardian_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Mob drop$()$(br2)Source: $(bold)Elder Guardian$() - kill it in an Ocean Monument.$(br2)Chance: $(bold)35%$() on kill."
+    }
+  ]
+}

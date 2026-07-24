@@ -1,0 +1,12 @@
+{
+  "name": "Stellaris - Space Travel",
+  "icon": "stellaris:moon_stone",
+  "category": "patchouli:exploration",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Build rockets and travel to the Moon, Mars, Venus, and Mercury, each with their own biomes, resources, and dangers. Several End Remastered eyes (Lunar, Mars, Venus) are crafted from materials found on these planets."
+    }
+  ]
+}

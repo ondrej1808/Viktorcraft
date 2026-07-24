@@ -1,0 +1,16 @@
+{
+  "name": "New Dimensions",
+  "icon": "the_bumblezone:royal_jelly_bottle",
+  "category": "patchouli:exploration",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(bold)The Aether$() - a peaceful sky dimension with its own progression and bosses.$(br2)$(bold)Deeper and Darker$() - an expanded, more dangerous Deep Dark."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)The Bumblezone$() - a bee-themed dimension reached through beehives, home of the Soul and Bee eyes' crafting ingredients."
+    }
+  ]
+}

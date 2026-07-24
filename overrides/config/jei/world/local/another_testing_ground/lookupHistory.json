@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"molten_vents:dormant_molten_ochrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"molten_vents:active_molten_crimsite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_dimension:steamworks_realm"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

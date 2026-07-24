@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stellaris_space_race"
+	group: "000000000000006B"
+	icon: "stellaris:moon_stone"
+	id: "00000000000000E0"
+	order_index: 6
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"000000000000005A"
+		]
+		description: [
+			""
+		]
+		icon: "stellaris:steel_ingot"
+		id: "00000000000000E1"
+		rewards: [
+		{
+			id: "00000000000000E3"
+			type: "xp_levels"
+			xp_levels: 3
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000E2"
+			item: "stellaris:steel_ingot"
+			type: "item"
+		}
+		]
+		title: "Build a Rocket"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"00000000000000E1"
+		]
+		description: [
+			""
+		]
+		icon: "stellaris:moon_stone"
+		id: "00000000000000E4"
+		rewards: [
+		{
+			id: "00000000000000E6"
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000E5"
+			item: "stellaris:moon_stone"
+			type: "item"
+		}
+		]
+		title: "Land on the Moon"
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"00000000000000E4"
+		]
+		description: [
+			""
+		]
+		icon: "stellaris:mars_stone"
+		id: "00000000000000E7"
+		rewards: [
+		{
+			id: "00000000000000E9"
+			type: "xp_levels"
+			xp_levels: 6
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000E8"
+			item: "stellaris:mars_stone"
+			type: "item"
+		}
+		]
+		title: "Land on Mars"
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"00000000000000E7"
+		]
+		description: [
+			""
+		]
+		icon: "stellaris:venus_stone"
+		id: "00000000000000EA"
+		rewards: [
+		{
+			id: "00000000000000EC"
+			type: "xp_levels"
+			xp_levels: 7
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000EB"
+			item: "stellaris:venus_stone"
+			type: "item"
+		}
+		]
+		title: "Land on Venus"
+		x: 9.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "Rockets, Moon, Mars, Venus, Mercury"
+	title: "Stellaris: Space Race"
+}

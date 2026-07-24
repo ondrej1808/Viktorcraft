@@ -1,0 +1,12 @@
+{
+  "name": "Cursed Eye",
+  "icon": "endrem:cursed_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Loot chest$()$(br2)Source: $(bold)Bastion Treasure$() chest.$(br2)Chance: $(bold)70%$() per chest."
+    }
+  ]
+}

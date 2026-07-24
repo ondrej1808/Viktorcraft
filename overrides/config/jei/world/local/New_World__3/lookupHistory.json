@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"waystones:warp_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"waystones:waystone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:resonarium_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:resonarium_helmet","components":{"minecraft:damage":247}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,13 @@
+{
+  "name": "Industrial Eye",
+  "icon": "endrem:industrial_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 12,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "eyeguide:industrial_eye_craft",
+      "text": "How to obtain: $(bold)Craft$()$(br2)4x Analog Circuit (Modern Industrialization) + Eye of Ender."
+    }
+  ]
+}

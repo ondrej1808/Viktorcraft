@@ -1,0 +1,12 @@
+{
+  "name": "Black Eye",
+  "icon": "endrem:black_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 19,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Loot chest$() (two possible sources)$(br2)Source 1: $(bold)Buried Treasure$() chest - $(bold)30%$() chance.$(br2)Source 2: $(bold)Shipwreck Treasure$() chest - $(bold)5%$() chance."
+    }
+  ]
+}

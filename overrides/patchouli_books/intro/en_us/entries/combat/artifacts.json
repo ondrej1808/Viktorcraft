@@ -1,0 +1,12 @@
+{
+  "name": "Artifacts",
+  "icon": "minecraft:rabbit_foot",
+  "category": "patchouli:combat",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A large set of accessory items - rings, charms, and trinkets found as rare loot or crafted - each with a unique passive effect. Check your curios/accessory slots once you find your first one."
+    }
+  ]
+}

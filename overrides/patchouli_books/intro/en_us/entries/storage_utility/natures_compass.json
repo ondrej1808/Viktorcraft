@@ -1,0 +1,12 @@
+{
+  "name": "Nature's Compass",
+  "icon": "naturescompass:naturescompass",
+  "category": "patchouli:storage_utility",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Right-click to open a biome search menu, pick a biome, and it points you toward the nearest one. Great for tracking down a specific dimension's biome (an Aether Golden Oak Forest, a Bumblezone meadow, etc.) without blind exploring."
+    }
+  ]
+}

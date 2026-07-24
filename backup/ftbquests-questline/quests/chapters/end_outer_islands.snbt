@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_outer_islands"
+	group: "000000000000006B"
+	icon: "modern_industrialization:iridium_ore"
+	id: "00000000000000D9"
+	order_index: 5
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"00000000000000D6"
+			"000000000000005A"
+		]
+		description: [
+			"Past an End Gateway, never the central island."
+		]
+		icon: "minecraft:ender_pearl"
+		id: "00000000000000DA"
+		rewards: [
+		{
+			id: "00000000000000DC"
+			type: "xp_levels"
+			xp_levels: 3
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 4L
+			id: "00000000000000DB"
+			item: "minecraft:ender_pearl"
+			type: "item"
+		}
+		]
+		title: "Reach the Outer Islands"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"00000000000000DA"
+		]
+		description: [
+			"Iridium, Uranium, Monazite or MI Quartz - the rarest of the 6 vein types."
+		]
+		icon: "modern_industrialization:iridium_ore"
+		id: "00000000000000DD"
+		rewards: [
+		{
+			id: "00000000000000DF"
+			type: "xp_levels"
+			xp_levels: 4
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000DE"
+			item: "modern_industrialization:iridium_ore"
+			type: "item"
+		}
+		]
+		title: "Find an Exotic Vein"
+		x: 3.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "Large, End-exclusive ore veins"
+	title: "End Outer Island Ore Veins"
+}

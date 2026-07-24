@@ -1,0 +1,12 @@
+{
+  "name": "Lootr",
+  "icon": "lootr:lootr_chest",
+  "category": "patchouli:storage_utility",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Loot chests are personal - every player who opens a dungeon/structure chest gets their own freshly-rolled loot, so nobody has to race friends to a chest first. Works automatically on vanilla and modded loot chests alike."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Pack-Specific Changes",
+  "description": "Things this pack changed on top of the mods' defaults.",
+  "icon": "minecraft:writable_book",
+  "sortnum": 5
+}

@@ -1,0 +1,164 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vanilla_plus_structures"
+	group: "000000000000006B"
+	icon: "minecraft:bastion_remnant"
+	id: "000000000000006A"
+	order_index: 0
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"0000000000000012"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:iron_sword"
+		id: "000000000000006C"
+		rewards: [
+		{
+			id: "000000000000006E"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000006D"
+			item: "minecraft:iron_sword"
+			type: "item"
+		}
+		]
+		title: "Raid a Dungeon"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"000000000000006C"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:rail"
+		id: "000000000000006F"
+		rewards: [
+		{
+			id: "0000000000000071"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000070"
+			item: "minecraft:rail"
+			type: "item"
+		}
+		]
+		title: "Explore a Mineshaft"
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"000000000000006F"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:ender_pearl"
+		id: "0000000000000072"
+		rewards: [
+		{
+			id: "0000000000000074"
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000073"
+			item: "minecraft:ender_pearl"
+			type: "item"
+		}
+		]
+		title: "Reach a Stronghold"
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"000000000000006C"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:blaze_rod"
+		id: "0000000000000075"
+		rewards: [
+		{
+			id: "0000000000000077"
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000076"
+			item: "minecraft:blaze_rod"
+			type: "item"
+		}
+		]
+		title: "Storm a Nether Fortress"
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000075"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:netherite_scrap"
+		id: "0000000000000078"
+		rewards: [
+		{
+			id: "000000000000007A"
+			type: "xp_levels"
+			xp_levels: 3
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000079"
+			item: "minecraft:netherite_scrap"
+			type: "item"
+		}
+		]
+		title: "Loot a Bastion Remnant"
+		x: 0.0d
+		y: 3.0d
+	}
+	]
+	subtitle: "Yung's structure overhaul"
+	title: "Vanilla-Plus Structures"
+}

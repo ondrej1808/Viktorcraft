@@ -1,0 +1,22 @@
+{
+  "name": "Book of Eyes",
+  "landing_text": "A complete overview of all Endrem Eyes and how to obtain them - loot, crafting, trading and mob drops.",
+  "icon": "minecraft:ender_eye",
+  "book_texture": "patchouli:textures/gui/book_purple.png",
+  "text_color": "3a3a3a",
+  "header_color": "50e3c2",
+  "nameplate_color": "393939",
+  "link_color": "5CB2F2",
+  "link_color_hover": "8ad2ff",
+  "progress_bar_color": "F79420",
+  "progress_bar_background": "DDDDDD",
+  "open_sound": "minecraft:item.book.page_turn",
+  "flip_sound": "minecraft:item.book.page_turn",
+  "index_icon": "minecraft:ender_eye",
+  "pamphlet": false,
+  "show_progress": false,
+  "use_blocky_font": false,
+  "i18n": false,
+  "subtitle": "A guide to Endrem Eyes",
+  "version": "1.0"
+}

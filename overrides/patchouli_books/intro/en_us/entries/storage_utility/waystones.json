@@ -1,0 +1,12 @@
+{
+  "name": "Waystones",
+  "icon": "waystones:waystone",
+  "category": "patchouli:storage_utility",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Place a Waystone, activate it, and warp back to it from anywhere. Essential once you start spreading bases across the Nether, the End, and Stellaris' planets."
+    }
+  ]
+}

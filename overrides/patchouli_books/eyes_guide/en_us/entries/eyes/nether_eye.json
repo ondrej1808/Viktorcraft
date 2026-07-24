@@ -1,0 +1,17 @@
+{
+  "name": "Nether Eye",
+  "icon": "endrem:nether_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 22,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Loot chest + Craft$()$(br2)Source: $(bold)Nether Fortress$() chests only. Not Bastion chests, and not Ruined Portal - its loot table isn't Nether-specific, so it was removed.$(br2)Chance: $(bold)30%$() per chest."
+    },
+    {
+      "type": "crafting",
+      "recipe": "eyeguide:nether_eye_craft",
+      "text": "Or craft it: a full set of Netherite armor (helmet, chestplate, leggings, boots) and Netherite tools (sword, pickaxe, axe, shovel) around an Eye of Ender."
+    }
+  ]
+}

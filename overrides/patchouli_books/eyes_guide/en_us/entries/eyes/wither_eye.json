@@ -1,0 +1,12 @@
+{
+  "name": "Wither Eye",
+  "icon": "endrem:wither_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Mob drop$()$(br2)Source: $(bold)Wither$() - defeat the boss.$(br2)Chance: 2 rolls at $(bold)90%$() each - nearly guaranteed (1-2 drops)."
+    }
+  ]
+}

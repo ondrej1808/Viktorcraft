@@ -1,0 +1,17 @@
+{
+  "name": "Cold Eye",
+  "icon": "endrem:cold_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 21,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Loot chest + Craft$()$(br2)Source: $(bold)Igloo Chest$() - $(bold)70%$() chance per chest."
+    },
+    {
+      "type": "crafting",
+      "recipe": "eyeguide:cold_eye_craft",
+      "text": "Or craft it: Snow, Powder Snow Bucket, Snowball, Goat Horn, Packed Ice, Ice and Blue Ice around an Eye of Ender."
+    }
+  ]
+}

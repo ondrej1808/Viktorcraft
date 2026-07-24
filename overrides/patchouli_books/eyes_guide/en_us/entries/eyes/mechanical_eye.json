@@ -1,0 +1,13 @@
+{
+  "name": "Mechanical Eye",
+  "icon": "endrem:mechanical_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 18,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "eyeguide:mechanical_eye_craft",
+      "text": "How to obtain: $(bold)Craft$()$(br2)8x Precision Mechanism (Create) + Eye of Ender."
+    }
+  ]
+}

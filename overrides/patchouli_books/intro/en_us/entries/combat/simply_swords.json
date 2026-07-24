@@ -1,0 +1,12 @@
+{
+  "name": "Simply Swords",
+  "icon": "minecraft:iron_sword",
+  "category": "patchouli:combat",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Adds Spears, Glaives, Chakrams, Katanas, Greathammers, Rapiers and more weapon types, each with their own reach and attack style.$(br2)$(bold)Note:$() Building Wands' iron/diamond wand recipes were reshaped in this pack because they collided exactly with the equivalent spear recipes - both are craftable again now."
+    }
+  ]
+}

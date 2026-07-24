@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_around"
+	group: "0000000000000103"
+	icon: "waystones:waystone"
+	id: "000000000000010A"
+	order_index: 1
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"0000000000000012"
+		]
+		description: [
+			""
+		]
+		icon: "waystones:waystone"
+		id: "000000000000010B"
+		rewards: [
+		{
+			id: "000000000000010D"
+			type: "xp"
+			xp: 10
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000010C"
+			item: "waystones:waystone"
+			type: "item"
+		}
+		]
+		title: "Place a Waystone"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"000000000000010B"
+		]
+		description: [
+			""
+		]
+		icon: "immersive_aircraft:gyrodyne"
+		id: "000000000000010E"
+		rewards: [
+		{
+			id: "0000000000000110"
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000010F"
+			item: "immersive_aircraft:gyrodyne"
+			type: "item"
+		}
+		]
+		title: "Build an Aircraft"
+		x: 3.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "Waystones, aircraft, and maps"
+	title: "Getting Around"
+}

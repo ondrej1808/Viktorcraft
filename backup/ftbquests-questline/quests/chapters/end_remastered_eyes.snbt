@@ -1,0 +1,729 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_remastered_eyes"
+	group: "000000000000006B"
+	icon: "endrem:corrupted_eye"
+	id: "000000000000008D"
+	order_index: 4
+	quest_links: []
+	quests: [
+	{
+		dependencies: []
+		description: [
+			"Dropped by the Wither (90% x2 rolls)."
+		]
+		icon: "endrem:wither_eye"
+		id: "000000000000008E"
+		rewards: [
+		{
+			id: "0000000000000090"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000008F"
+			item: "endrem:wither_eye"
+			type: "item"
+		}
+		]
+		title: "Wither Eye"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Dropped by Elder Guardians (35%)."
+		]
+		icon: "endrem:guardian_eye"
+		id: "0000000000000091"
+		rewards: [
+		{
+			id: "0000000000000093"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000092"
+			item: "endrem:guardian_eye"
+			type: "item"
+		}
+		]
+		title: "Guardian Eye"
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Found in Bastion Treasure chests (70%)."
+		]
+		icon: "endrem:cursed_eye"
+		id: "0000000000000094"
+		rewards: [
+		{
+			id: "0000000000000096"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000095"
+			item: "endrem:cursed_eye"
+			type: "item"
+		}
+		]
+		title: "Cursed Eye"
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Found in Desert Pyramid (15%) or Simple Dungeon (2.5%) chests."
+		]
+		icon: "endrem:old_eye"
+		id: "0000000000000097"
+		rewards: [
+		{
+			id: "0000000000000099"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000098"
+			item: "endrem:old_eye"
+			type: "item"
+		}
+		]
+		title: "Old Eye"
+		x: 9.0d
+		y: 0.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Found in Pillager Outpost chests (30%)."
+		]
+		icon: "endrem:corrupted_eye"
+		id: "000000000000009A"
+		rewards: [
+		{
+			id: "000000000000009C"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000009B"
+			item: "endrem:corrupted_eye"
+			type: "item"
+		}
+		]
+		title: "Corrupted Eye"
+		x: 0.0d
+		y: 3.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Found in Igloo chests (70%), or crafted."
+		]
+		icon: "endrem:cold_eye"
+		id: "000000000000009D"
+		rewards: [
+		{
+			id: "000000000000009F"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000009E"
+			item: "endrem:cold_eye"
+			type: "item"
+		}
+		]
+		title: "Cold Eye"
+		x: 3.0d
+		y: 3.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Found in Jungle Temple chests (40%), or crafted."
+		]
+		icon: "endrem:rogue_eye"
+		id: "00000000000000A0"
+		rewards: [
+		{
+			id: "00000000000000A2"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000A1"
+			item: "endrem:rogue_eye"
+			type: "item"
+		}
+		]
+		title: "Rogue Eye"
+		x: 6.0d
+		y: 3.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Found in Buried Treasure (30%) or Shipwreck (5%) chests."
+		]
+		icon: "endrem:black_eye"
+		id: "00000000000000A3"
+		rewards: [
+		{
+			id: "00000000000000A5"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000A4"
+			item: "endrem:black_eye"
+			type: "item"
+		}
+		]
+		title: "Black Eye"
+		x: 9.0d
+		y: 3.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Found in Abandoned Mineshaft (20%) or Simple Dungeon (2.5%) chests."
+		]
+		icon: "endrem:lost_eye"
+		id: "00000000000000A6"
+		rewards: [
+		{
+			id: "00000000000000A8"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000A7"
+			item: "endrem:lost_eye"
+			type: "item"
+		}
+		]
+		title: "Lost Eye"
+		x: 0.0d
+		y: 6.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Found in Bastion/Nether Fortress chests (10%), or crafted from Netherite gear."
+		]
+		icon: "endrem:nether_eye"
+		id: "00000000000000A9"
+		rewards: [
+		{
+			id: "00000000000000AB"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000AA"
+			item: "endrem:nether_eye"
+			type: "item"
+		}
+		]
+		title: "Nether Eye"
+		x: 3.0d
+		y: 6.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Dropped by Evokers (5%) or found in Woodland Mansion chests (10%)."
+		]
+		icon: "endrem:magical_eye"
+		id: "00000000000000AC"
+		rewards: [
+		{
+			id: "00000000000000AE"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000AD"
+			item: "endrem:magical_eye"
+			type: "item"
+		}
+		]
+		title: "Magical Eye"
+		x: 6.0d
+		y: 6.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Crafted from Stellaris Venus Stone + Ender Eye."
+		]
+		icon: "minecraft:book"
+		id: "00000000000000AF"
+		rewards: [
+		{
+			id: "00000000000000B1"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			advancement: "endrem:venus_eye"
+			id: "00000000000000B0"
+			type: "advancement"
+		}
+		]
+		title: "Venus Eye"
+		x: 9.0d
+		y: 6.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Crafted from MI Analog Circuits + Ender Eye."
+		]
+		icon: "minecraft:book"
+		id: "00000000000000B2"
+		rewards: [
+		{
+			id: "00000000000000B4"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			advancement: "endrem:industrial_eye"
+			id: "00000000000000B3"
+			type: "advancement"
+		}
+		]
+		title: "Industrial Eye"
+		x: 0.0d
+		y: 9.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Crafted from Stellaris Mars Stone + Ender Eye."
+		]
+		icon: "minecraft:book"
+		id: "00000000000000B5"
+		rewards: [
+		{
+			id: "00000000000000B7"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			advancement: "endrem:mars_eye"
+			id: "00000000000000B6"
+			type: "advancement"
+		}
+		]
+		title: "Mars Eye"
+		x: 3.0d
+		y: 9.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Crafted from a Deeper and Darker Soul Crystal + Ender Eye."
+		]
+		icon: "minecraft:book"
+		id: "00000000000000B8"
+		rewards: [
+		{
+			id: "00000000000000BA"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			advancement: "endrem:soul_eye"
+			id: "00000000000000B9"
+			type: "advancement"
+		}
+		]
+		title: "Soul Eye"
+		x: 6.0d
+		y: 9.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Crafted from Bumblezone Royal Jelly + Ender Eye."
+		]
+		icon: "minecraft:book"
+		id: "00000000000000BB"
+		rewards: [
+		{
+			id: "00000000000000BD"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			advancement: "endrem:bee_eye"
+			id: "00000000000000BC"
+			type: "advancement"
+		}
+		]
+		title: "Bee Eye"
+		x: 9.0d
+		y: 9.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Crafted from Stellaris Moon Stone + Ender Eye."
+		]
+		icon: "minecraft:book"
+		id: "00000000000000BE"
+		rewards: [
+		{
+			id: "00000000000000C0"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			advancement: "endrem:lunar_eye"
+			id: "00000000000000BF"
+			type: "advancement"
+		}
+		]
+		title: "Lunar Eye"
+		x: 0.0d
+		y: 12.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Crafted from a Create Precision Mechanism + Ender Eye."
+		]
+		icon: "minecraft:book"
+		id: "00000000000000C1"
+		rewards: [
+		{
+			id: "00000000000000C3"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			advancement: "endrem:mechanical_eye"
+			id: "00000000000000C2"
+			type: "advancement"
+		}
+		]
+		title: "Mechanical Eye"
+		x: 3.0d
+		y: 12.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Craft a Witch Pupil (10% Witch drop) with an Eye of Ender."
+		]
+		icon: "endrem:witch_eye"
+		id: "00000000000000C4"
+		rewards: [
+		{
+			id: "00000000000000C6"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000C5"
+			item: "endrem:witch_eye"
+			type: "item"
+		}
+		]
+		title: "Witch Eye"
+		x: 6.0d
+		y: 12.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"A 1/120 chance every time you enchant an item."
+		]
+		icon: "endrem:cryptic_eye"
+		id: "00000000000000C7"
+		rewards: [
+		{
+			id: "00000000000000C9"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000C8"
+			item: "endrem:cryptic_eye"
+			type: "item"
+		}
+		]
+		title: "Cryptic Eye"
+		x: 9.0d
+		y: 12.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Traded from a Master-level Cleric villager."
+		]
+		icon: "endrem:evil_eye"
+		id: "00000000000000CA"
+		rewards: [
+		{
+			id: "00000000000000CC"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000CB"
+			item: "endrem:evil_eye"
+			type: "item"
+		}
+		]
+		title: "Evil Eye"
+		x: 0.0d
+		y: 15.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Craft an Undead Soul (25% Skeleton Horse drop) with Bone, Rotten Flesh, Phantom Membrane and Ghast Tear."
+		]
+		icon: "endrem:undead_eye"
+		id: "00000000000000CD"
+		rewards: [
+		{
+			id: "00000000000000CF"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000CE"
+			item: "endrem:undead_eye"
+			type: "item"
+		}
+		]
+		title: "Undead Eye"
+		x: 3.0d
+		y: 15.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"Craft 2 Conduits, 4 kinds of coral, 2 Glow Ink Sacs and an Eye of Ender."
+		]
+		icon: "endrem:exotic_eye"
+		id: "00000000000000D0"
+		rewards: [
+		{
+			id: "00000000000000D2"
+			type: "xp"
+			xp: 20
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000D1"
+			item: "endrem:exotic_eye"
+			type: "item"
+		}
+		]
+		title: "Exotic Eye"
+		x: 6.0d
+		y: 15.0d
+	}
+	{
+		dependencies: []
+		description: [
+			"This one isn't from End Remastered - it's an original addition to this pack. Craft it from Cocoa Beans, Cake, Cookie, Honey Bottle, Sweet Berries, Glow Berries, Sugar Water Bottle and a Create Bar of Chocolate around an Eye of Ender. It doesn't count toward opening the portal, but it's a fun 24th eye to collect."
+		]
+		icon: "eyeguide:tasty_eye"
+		id: "00000000000000D3"
+		rewards: [
+		{
+			id: "00000000000000D5"
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000D4"
+			item: "eyeguide:tasty_eye"
+			type: "item"
+		}
+		]
+		title: "Tasty Eye (Pack Original)"
+		x: 9.0d
+		y: 15.0d
+	}
+	{
+		dependencies: [
+			"000000000000008E"
+			"0000000000000091"
+			"0000000000000094"
+			"0000000000000097"
+			"000000000000009A"
+			"000000000000009D"
+			"00000000000000A0"
+			"00000000000000A3"
+			"00000000000000A6"
+			"00000000000000A9"
+			"00000000000000AC"
+			"00000000000000AF"
+			"00000000000000B2"
+			"00000000000000B5"
+			"00000000000000B8"
+			"00000000000000BB"
+			"00000000000000BE"
+			"00000000000000C1"
+			"00000000000000C4"
+			"00000000000000C7"
+			"00000000000000CA"
+			"00000000000000CD"
+			"00000000000000D0"
+		]
+		description: [
+			"Vanilla End Portals need 12 unique eyes out of the 23 canonical ones. You do not need the Tasty Eye for this."
+		]
+		icon: "minecraft:book"
+		id: "00000000000000D6"
+		rewards: [
+		{
+			id: "00000000000000D8"
+			type: "xp_levels"
+			xp_levels: 10
+		}
+		]
+		shape: "gear"
+		size: 1.0d
+		tasks: [
+		{
+			id: "00000000000000D7"
+			type: "checkmark"
+		}
+		]
+		title: "Open the Portal"
+		x: 0.0d
+		y: 18.0d
+	}
+	]
+	subtitle: "24 eyes, 24 stories"
+	title: "End Remastered: The Eyes"
+}

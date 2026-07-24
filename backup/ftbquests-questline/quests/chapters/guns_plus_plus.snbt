@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guns_plus_plus"
+	group: "00000000000000EE"
+	icon: "minecraft:crossbow"
+	id: "00000000000000F5"
+	order_index: 1
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"000000000000005A"
+			"00000000000000F2"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:written_book"
+		id: "00000000000000F6"
+		rewards: [
+		{
+			id: "00000000000000F8"
+			type: "xp"
+			xp: 10
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000F7"
+			item: "minecraft:written_book"
+			type: "item"
+		}
+		]
+		title: "Get the Guns++ Recipes Book"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"00000000000000F6"
+		]
+		description: [
+			"Gun frames now use MI Steel instead of Iron - a deliberate nerf."
+		]
+		icon: "minecraft:carrot_on_a_stick"
+		id: "00000000000000F9"
+		rewards: [
+		{
+			id: "00000000000000FB"
+			type: "xp_levels"
+			xp_levels: 3
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000FA"
+			item: "minecraft:carrot_on_a_stick"
+			type: "item"
+		}
+		]
+		title: "Craft Your First Gun"
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"00000000000000F9"
+		]
+		description: [
+			"Standard bullets use MI Lead, shell-type rounds use MI Bronze."
+		]
+		icon: "minecraft:clock"
+		id: "00000000000000FC"
+		rewards: [
+		{
+			id: "00000000000000FE"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "00000000000000FD"
+			item: "minecraft:clock"
+			type: "item"
+		}
+		]
+		title: "Craft Ammo"
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"00000000000000FC"
+		]
+		description: [
+			"MI Mixer: Coke Dust + Sulfur Dust -> 2x Gunpowder."
+		]
+		icon: "minecraft:gunpowder"
+		id: "00000000000000FF"
+		rewards: [
+		{
+			id: "0000000000000101"
+			type: "xp_levels"
+			xp_levels: 3
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 16L
+			id: "0000000000000100"
+			item: "minecraft:gunpowder"
+			type: "item"
+		}
+		]
+		title: "Automate Gunpowder"
+		x: 9.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "Rebalanced with MI Steel and Lead/Bronze ammo"
+	title: "Guns++"
+}

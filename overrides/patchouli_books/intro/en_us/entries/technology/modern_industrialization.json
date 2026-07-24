@@ -1,0 +1,16 @@
+{
+  "name": "Modern Industrialization",
+  "icon": "modern_industrialization:steel_ingot",
+  "category": "patchouli:technology",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A full EU-based tech tree from LV to UHV, with pipes, cables, and multiblock machines. This is the pack's main endgame tech mod."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)Note:$() Steel in this pack is unified - $(bold)MI steel is the only real steel$(). Stellaris steel ore now generates normally - smelt it into a Stellaris steel ingot as usual, then convert that 1:1 into MI steel with a simple crafting recipe (same for nuggets)."
+    }
+  ]
+}

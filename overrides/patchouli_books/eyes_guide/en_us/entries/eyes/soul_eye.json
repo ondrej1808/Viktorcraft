@@ -1,0 +1,13 @@
+{
+  "name": "Soul Eye",
+  "icon": "endrem:soul_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "eyeguide:soul_eye_craft",
+      "text": "How to obtain: $(bold)Craft$()$(br2)Soul Crystal (Deeper Darker) + Eye of Ender (shapeless)."
+    }
+  ]
+}

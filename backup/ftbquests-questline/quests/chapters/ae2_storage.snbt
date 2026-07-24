@@ -1,0 +1,104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2_storage"
+	group: "0000000000000016"
+	icon: "appliedenergistics2:controller"
+	id: "000000000000004C"
+	order_index: 3
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"0000000000000020"
+		]
+		description: [
+			""
+		]
+		icon: "appliedenergistics2:controller"
+		id: "000000000000004D"
+		rewards: [
+		{
+			id: "000000000000004F"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000004E"
+			item: "appliedenergistics2:controller"
+			type: "item"
+		}
+		]
+		title: "ME Controller"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"000000000000004D"
+		]
+		description: [
+			""
+		]
+		icon: "appliedenergistics2:drive"
+		id: "0000000000000050"
+		rewards: [
+		{
+			id: "0000000000000052"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000051"
+			item: "appliedenergistics2:drive"
+			type: "item"
+		}
+		]
+		title: "ME Drive"
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000050"
+		]
+		description: [
+			""
+		]
+		icon: "appliedenergistics2:crafting_terminal"
+		id: "0000000000000053"
+		rewards: [
+		{
+			id: "0000000000000055"
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000054"
+			item: "appliedenergistics2:crafting_terminal"
+			type: "item"
+		}
+		]
+		title: "ME Terminal"
+		x: 6.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "Digital storage networks"
+	title: "AE2 Storage"
+}

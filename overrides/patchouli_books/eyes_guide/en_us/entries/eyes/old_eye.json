@@ -1,0 +1,12 @@
+{
+  "name": "Old Eye",
+  "icon": "endrem:old_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Loot chest$() (two possible sources)$(br2)Source 1: $(bold)Desert Pyramid$() chest - $(bold)15%$() chance.$(br2)Source 2: $(bold)Simple Dungeon$() chest - $(bold)2.5%$() chance."
+    }
+  ]
+}

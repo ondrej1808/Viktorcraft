@@ -1,0 +1,17 @@
+{
+  "name": "Bee Eye",
+  "icon": "endrem:bee_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "eyeguide:bee_eye_craft",
+      "text": "How to obtain: $(bold)Craft$()$(br2)Royal Jelly Bottle (The Bumblezone) + Eye of Ender (shapeless)."
+    },
+    {
+      "type": "text",
+      "text": "Royal Jelly can be obtained from the Bee Queen - check Bumblezone advancements for more.$(br2)To enter the Bumblezone, throw an Ender Pearl or push yourself with a piston into a beehive. Remember to bring tools, wood, and building blocks."
+    }
+  ]
+}

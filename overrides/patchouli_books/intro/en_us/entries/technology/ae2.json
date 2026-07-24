@@ -1,0 +1,16 @@
+{
+  "name": "Applied Energistics 2",
+  "icon": "appliedenergistics2:controller",
+  "category": "patchouli:technology",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Digital item and fluid storage - the ME System. Store your entire base's inventory in a searchable network instead of a wall of chests. Pairs well with Tom's Storage and Sophisticated Backpacks if you'd rather not commit to a full ME network right away."
+    },
+    {
+      "type": "text",
+      "text": "AE2 ships its own in-game guide (the $(bold)GuideMe$() book, found in your inventory or craftable) covering the full ME network from cables to crafting CPUs in far more depth than we will here - open it once you're ready to go past a basic terminal."
+    }
+  ]
+}

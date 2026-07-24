@@ -1,0 +1,16 @@
+{
+  "name": "Welcome to Summerpack",
+  "icon": "minecraft:knowledge_book",
+  "category": "patchouli:welcome",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Summerpack mixes three big themes: $(bold)technology$() (Create, Modern Industrialization, Applied Energistics 2), $(bold)exploration$() (End Remastered's custom eyes, Stellaris space travel, new dungeons and structures from Yung's mods), and $(bold)adventure$() (new weapons, accessories, and dimensions)."
+    },
+    {
+      "type": "text",
+      "text": "There's no fixed progression path - pick a theme and go. Check the other sections of this book for a quick tour of what each part of the pack does, and check your $(bold)Book of Eyes$() for everything about the End Remastered eyes specifically."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_darker"
+	group: "000000000000006B"
+	icon: "minecraft:sculk"
+	id: "0000000000000082"
+	order_index: 2
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"0000000000000012"
+		]
+		description: [
+			""
+		]
+		icon: "minecraft:echo_shard"
+		id: "0000000000000083"
+		rewards: [
+		{
+			id: "0000000000000085"
+			type: "xp_levels"
+			xp_levels: 2
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000084"
+			item: "minecraft:echo_shard"
+			type: "item"
+		}
+		]
+		title: "Find the Deep Dark"
+		x: 0.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "A more dangerous Deep Dark"
+	title: "Deeper and Darker"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Witch Eye",
+  "icon": "endrem:witch_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Mob drop + Craft$()$(br2)Step 1: Kill a $(bold)Witch$() - $(bold)10%$() chance to drop a $(bold)Witch Pupil$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "endrem:witch_eye",
+      "text": "Step 2: Craft the Witch Eye from a Witch Pupil and an Eye of Ender."
+    }
+  ]
+}

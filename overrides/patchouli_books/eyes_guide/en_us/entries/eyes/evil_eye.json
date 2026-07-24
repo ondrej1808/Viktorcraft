@@ -1,0 +1,12 @@
+{
+  "name": "Evil Eye",
+  "icon": "endrem:evil_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Villager Trade$()$(br2)Source: $(bold)Cleric$() villager - find one and trade.$(br2)Price: Emerald + Rabbit's Foot."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Gravestone",
+  "icon": "gravestone:gravestone",
+  "category": "patchouli:storage_utility",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Die and a grave marks the spot, holding your dropped inventory and XP until you (or another player) break it to recover everything. No more swimming through lava trying to grab items before they despawn."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Yung's Structures",
+  "icon": "minecraft:bastion_remnant",
+  "category": "patchouli:exploration",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Vanilla structures got a full overhaul: Better Dungeons, Better Mineshafts, Better Nether Fortresses, Better Strongholds, Better Jungle Temples, Better Ocean Monuments, and Better Witch Huts are all bigger, more dangerous, and more rewarding than the vanilla versions - and several still hide End Remastered eyes."
+    }
+  ]
+}

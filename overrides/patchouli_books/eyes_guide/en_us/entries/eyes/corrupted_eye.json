@@ -1,0 +1,12 @@
+{
+  "name": "Corrupted Eye",
+  "icon": "endrem:corrupted_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Loot chest$()$(br2)Source: $(bold)Pillager Outpost$() chest.$(br2)Chance: $(bold)30%$() per chest."
+    }
+  ]
+}

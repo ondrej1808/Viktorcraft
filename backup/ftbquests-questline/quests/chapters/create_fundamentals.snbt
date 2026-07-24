@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_fundamentals"
+	group: "0000000000000016"
+	icon: "create:cogwheel"
+	id: "0000000000000023"
+	order_index: 1
+	quest_links: []
+	quests: [
+	{
+		dependencies: [
+			"0000000000000012"
+		]
+		description: [
+			""
+		]
+		icon: "create:cogwheel"
+		id: "0000000000000024"
+		rewards: [
+		{
+			id: "0000000000000026"
+			type: "xp"
+			xp: 10
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000025"
+			item: "create:cogwheel"
+			type: "item"
+		}
+		]
+		title: "Cogwheels"
+		x: 0.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000024"
+		]
+		description: [
+			""
+		]
+		icon: "create:water_wheel"
+		id: "0000000000000027"
+		rewards: [
+		{
+			id: "0000000000000029"
+			type: "xp"
+			xp: 10
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "0000000000000028"
+			item: "create:water_wheel"
+			type: "item"
+		}
+		]
+		title: "Water Wheel"
+		x: 3.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"0000000000000027"
+		]
+		description: [
+			"Now works on 5 MI ores too, thanks to this pack's compat recipes."
+		]
+		icon: "create:crushing_wheel"
+		id: "000000000000002A"
+		rewards: [
+		{
+			id: "000000000000002C"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000002B"
+			item: "create:crushing_wheel"
+			type: "item"
+		}
+		]
+		title: "Crushing Wheels"
+		x: 6.0d
+		y: 0.0d
+	}
+	{
+		dependencies: [
+			"000000000000002A"
+		]
+		description: [
+			""
+		]
+		icon: "create:mechanical_mixer"
+		id: "000000000000002D"
+		rewards: [
+		{
+			id: "000000000000002F"
+			type: "xp"
+			xp: 15
+		}
+		]
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+		{
+			count: 1L
+			id: "000000000000002E"
+			item: "create:mechanical_mixer"
+			type: "item"
+		}
+		]
+		title: "Mechanical Mixer"
+		x: 9.0d
+		y: 0.0d
+	}
+	]
+	subtitle: "Mechanical power basics"
+	title: "Create Fundamentals"
+}

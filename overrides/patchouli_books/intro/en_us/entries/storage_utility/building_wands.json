@@ -1,0 +1,12 @@
+{
+  "name": "Building Wands",
+  "icon": "wands:iron_wand",
+  "category": "patchouli:storage_utility",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Place many blocks at once straight from your inventory - point at a placed block and use the wand to extend a wall, floor, or pillar from it. Wand tiers (copper/iron/diamond/netherite) control range and speed."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "End Remastered - The Eyes",
+  "icon": "endrem:corrupted_eye",
+  "category": "patchouli:exploration",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Reaching the End is no longer as simple as finding Eyes of Ender. This pack introduces 24 unique eyes, found in specific structures, dropped by specific mobs, traded from villagers, or crafted from rare materials.$(br2)Grab your $(bold)Book of Eyes$() (you should already have one) for the full breakdown of every eye and exactly how to get it."
+    }
+  ]
+}

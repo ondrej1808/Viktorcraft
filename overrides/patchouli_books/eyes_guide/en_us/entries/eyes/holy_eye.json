@@ -1,0 +1,12 @@
+{
+  "name": "Holy Eye",
+  "icon": "endrem:holy_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 24,
+  "pages": [
+    {
+      "type": "text",
+      "text": "How to obtain: $(bold)Boss drop$()$(br2)Source: the Aether's $(bold)Sun Spirit$() (found in the Sun Temple dungeon) - $(bold)guaranteed drop$() on kill."
+    }
+  ]
+}

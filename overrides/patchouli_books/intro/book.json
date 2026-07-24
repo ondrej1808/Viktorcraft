@@ -1,0 +1,22 @@
+{
+  "name": "Summerpack Guide",
+  "landing_text": "Your introduction to Summerpack - what's in the pack, and what you can actually do with it.",
+  "icon": "minecraft:knowledge_book",
+  "book_texture": "patchouli:textures/gui/book_brown.png",
+  "text_color": "3a3a3a",
+  "header_color": "50a0e3",
+  "nameplate_color": "393939",
+  "link_color": "5CB2F2",
+  "link_color_hover": "8ad2ff",
+  "progress_bar_color": "F79420",
+  "progress_bar_background": "DDDDDD",
+  "open_sound": "minecraft:item.book.page_turn",
+  "flip_sound": "minecraft:item.book.page_turn",
+  "index_icon": "minecraft:knowledge_book",
+  "pamphlet": false,
+  "show_progress": false,
+  "use_blocky_font": false,
+  "i18n": false,
+  "subtitle": "What's in the box",
+  "version": "1.0"
+}

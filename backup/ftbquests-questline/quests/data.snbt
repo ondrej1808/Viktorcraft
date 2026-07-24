@@ -1,0 +1,12 @@
+{
+	chapter_groups: "chapter_groups.snbt"
+	default_reward_team_bonus: 0.0d
+	drop_loot_crates: false
+	emergency_items: []
+	emergency_items_cooldown: 0
+	loot_crate_no_drop_penalty: 1.0d
+	loss_action: 0
+	order_index: 0
+	reward_auto_claim: false
+	title: "Summerpack"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Venus Eye",
+  "icon": "endrem:venus_eye",
+  "category": "patchouli:eyes",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "eyeguide:venus_eye_craft",
+      "text": "How to obtain: $(bold)Craft$()$(br2)8x Venus Stone (Stellaris) + Eye of Ender."
+    }
+  ]
+}
